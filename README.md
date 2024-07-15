@@ -7,13 +7,15 @@
 ---
 
 This is the official implementation of NeRFLiX++. 
-
+The checkpoint is uploaded at [\[Google Drive\]](https://drive.google.com/drive/folders/10gups3J2vfymuYFzyflC75V1CPNEHN4v?usp=sharing). 
+We also upload the input data (TensoRF) and the camera json files for running our code.
 
  ## Todo List
 <ul style="list-style-type:none; padding-left: 0;">
     <!-- <li><input type="checkbox" checked disabled> Inference codes for LLFF</li> -->
     <li>&#9634; Inference codes for LLFF</li>
     <li>&#9634; Training codes of our two-stage NDS, G-IVM</li>
+    <li>&#9634; Training codes of our two-stage NDS, G-IVM-4K ( L1 and GAN )</li>
     <li>&#9634; Training data (synthetic data and a part of real paired NeRF-rendered samples)</li>
 </ul>
 
@@ -28,8 +30,7 @@ If our work is useful for your research, please consider citing:
     year={2023}
     }
 
-
-    @ARTICLE{10361604,
+    @ARTICLE{zhou2023nerflixplusplus,
     author={Zhou, Kun and Li, Wenbo and Jiang, Nianjuan and Han, Xiaoguang and Lu, Jiangbo},
     journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
     title={From NeRFLiX to NeRFLiX++: A General NeRF-Agnostic Restorer Paradigm}, 
